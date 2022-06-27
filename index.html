@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test_task: Dynamic Table</title>
+</head>
+<body>
+    <div class="table">
+        <div class="item">
+            <input type="text" placeholder="поиск" id="search" onkeyup="showTable()">
+        </div>
+        <div class="item title">
+            <p>#</p>
+            <p onclick="sortTable('name')">Name</p>
+            <p onclick="sortTable('age')">Age</p>
+        </div>   
+        <div id="table-data">
+        </div>
+    </div>
+    <form id="upload">
+        <label for="file">Файл для загрузки</label>
+        <input type="file" id="file" accept=".json">
+        <button>Загрузить</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

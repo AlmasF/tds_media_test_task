@@ -1,0 +1,32 @@
+{
+    "employees":[
+        {
+            "name": "Almas",
+            "age": 20
+        },
+        {
+            "name": "Alex",
+            "age": 30
+        },
+        {
+            "name": "Mark",
+            "age": 25
+        },
+        {
+            "name": "Carl",
+            "age": 36
+        },
+        {
+            "name": "John",
+            "age": 28
+        },
+        {
+            "name": "Ziya",
+            "age": 22
+        },
+        {
+            "name": "Dinara",
+            "age": 35
+        }
+    ]
+}

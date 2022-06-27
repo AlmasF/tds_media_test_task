@@ -1,0 +1,24 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.table .item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.table .item p {
+    width: 100px;
+}
+
+.table .item.title p {
+    font-weight: 600;
+    cursor: pointer;
+}
